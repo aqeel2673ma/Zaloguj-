@@ -1,0 +1,22 @@
+dJavaScripts: Sending functions to FireFox .......... done
+_FFOpenURL: http://wolnelektury.pl/
+__FFSend: try{window.content.top.document.location.href='http://wolnelektury.pl/'}catch(e){'_FFCmd_Err';};
+__FFRecv: http://wolnelektury.pl/
+_FFLoadWait: .... loaded in 1310ms
+[object HTMLDocument] - {location: {...}, getElementsByName: function() {...}, open: function() {...}, close: function() {...}, write: function() {...}, writeln: function() {...}, execCommand: function() {...}, ...}
+__FFSend: FFau3.WCD=window.content.top.document;
+__FFRecv: [object HTMLDocument] - {location: {...}, getElementsByName: function() {...}, open: function() {...}, close: function() {...}, write: function() {...}, writeln: function() {...}, execCommand: function() {...}, ...}
+[object HTMLDocument] - {location: {...}, getElementsByName: function() {...}, open: function() {...}, close: function() {...}, write: function() {...}, writeln: function() {...}, execCommand: function() {...}, ...}
+__FFSend: try{FFau3..hasAttribute('outerHTML')}catch(e){'_FFCmd_Err';};
+_FFObjGet ==> Invalid value: (id|name|class|tag) $sMode: QuerySAll
+__FFSend: ;
+__FFRecv: 
+__FFSend: try{FFau3..outerHTML}catch(e){'_FFCmd_Err';};
+
+__FFWaitForRepl ==> Error return value: MozRepl ....>
+__FFRecv: !!! SyntaxError: missing name after . operator
+
+Details:
+"C:\Users\jc\Documents\AutoMAT\tmp\t.au3" (42) : ==> Can not initialize a variable with itself.:
+Local $sOuterHTML = BinaryToString(StringToBinary($sOuterHTML, 1), 4)
+Local $sOuterHTML = BinaryToString(StringToBinary(^ ERROR
